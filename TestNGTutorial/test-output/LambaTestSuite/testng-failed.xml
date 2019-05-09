@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [LambaTestSuite]" parallel="tests">
+  <test name="WIN10TEST(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="version" value="70.0"/>
+    <parameter name="platform" value="WIN10"/>
+    <classes>
+      <class name="lambdatest.PageObjectModel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- lambdatest.PageObjectModel -->
+    </classes>
+  </test> <!-- WIN10TEST(failed) -->
+  <test name="MACTEST(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <parameter name="version" value="11.0"/>
+    <parameter name="platform" value="macos 10.13"/>
+    <classes>
+      <class name="lambdatest.PageObjectModel">
+        <methods>
+          <include name="tearDown"/>
+          <include name="test1"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- lambdatest.PageObjectModel -->
+    </classes>
+  </test> <!-- MACTEST(failed) -->
+</suite> <!-- Failed suite [LambaTestSuite] -->

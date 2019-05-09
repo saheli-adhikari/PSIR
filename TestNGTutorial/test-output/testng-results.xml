@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LambaTestSuite" duration-ms="78055" started-at="2019-05-09T09:52:13Z" finished-at="2019-05-09T09:53:31Z">
+    <groups>
+    </groups>
+    <test name="MACTEST" duration-ms="33280" started-at="2019-05-09T09:52:13Z" finished-at="2019-05-09T09:52:46Z">
+      <class name="lambdatest.PageObjectModel">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:lambdatest.PageObjectModel@5474c6c]" name="setUp" is-config="true" duration-ms="15034" started-at="2019-05-09T15:22:13Z" finished-at="2019-05-09T15:22:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[safari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macos 10.13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:lambdatest.PageObjectModel@5474c6c]" name="test1" duration-ms="16587" started-at="2019-05-09T15:22:28Z" finished-at="2019-05-09T15:22:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lambdatest.PageObjectModel@5474c6c]" name="tearDown" is-config="true" duration-ms="1640" started-at="2019-05-09T15:22:44Z" finished-at="2019-05-09T15:22:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatest.PageObjectModel -->
+    </test> <!-- MACTEST -->
+    <test name="WIN10TEST" duration-ms="37883" started-at="2019-05-09T09:52:13Z" finished-at="2019-05-09T09:52:51Z">
+      <class name="lambdatest.PageObjectModel">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:lambdatest.PageObjectModel@77f03bb1]" name="setUp" is-config="true" duration-ms="11855" started-at="2019-05-09T15:22:13Z" finished-at="2019-05-09T15:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[70.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:lambdatest.PageObjectModel@77f03bb1]" name="test1" duration-ms="24420" started-at="2019-05-09T15:22:25Z" finished-at="2019-05-09T15:22:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lambdatest.PageObjectModel@77f03bb1]" name="tearDown" is-config="true" duration-ms="1576" started-at="2019-05-09T15:22:49Z" finished-at="2019-05-09T15:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatest.PageObjectModel -->
+    </test> <!-- WIN10TEST -->
+    <test name="WIN8TEST" duration-ms="78040" started-at="2019-05-09T09:52:13Z" finished-at="2019-05-09T09:53:31Z">
+      <class name="lambdatest.PageObjectModel">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:lambdatest.PageObjectModel@5c0369c4]" name="setUp" is-config="true" duration-ms="43638" started-at="2019-05-09T15:22:13Z" finished-at="2019-05-09T15:22:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[62.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WIN8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:lambdatest.PageObjectModel@5c0369c4]" name="test1" duration-ms="32046" started-at="2019-05-09T15:22:56Z" finished-at="2019-05-09T15:23:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:lambdatest.PageObjectModel@5c0369c4]" name="tearDown" is-config="true" duration-ms="2356" started-at="2019-05-09T15:23:28Z" finished-at="2019-05-09T15:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- lambdatest.PageObjectModel -->
+    </test> <!-- WIN8TEST -->
+  </suite> <!-- LambaTestSuite -->
+</testng-results>
