@@ -26,7 +26,7 @@ public class LoginPage {
 	}
 
 	// enter password
-	public static void enterPasswordTextBox(WebDriver driver, String password) {
+	public static void enterPassword(WebDriver driver, String password) {
 		element = passwordTextBox(driver);
 		element.sendKeys(password);
 	}
@@ -38,7 +38,7 @@ public class LoginPage {
 	}
 
 	// clicks on login button
-	public static void clickLoginButtoon(WebDriver driver) {
+	public static void clickLoginButton(WebDriver driver) {
 		element = loginButton(driver);
 		element.click();
 	}

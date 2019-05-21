@@ -17,7 +17,7 @@ public class PageObjectModel {
 	@BeforeClass
 	public void setUp() throws Exception {
 		driver = new FirefoxDriver();
-		baseURL = "https://www.expedia.com/";
+		baseURL = "http://ppdtest1.usgovvirginia.cloudapp.usgovcloudapi.net/?UserName=abc&Password=cde";
 		
 		// Maximize the browser's window
 		driver.manage().window().maximize();
@@ -32,9 +32,17 @@ public class PageObjectModel {
 	 * LoginPage.returnDateTextBox(driver).clear(); LoginPage.fillReturnDate(driver,
 	 * "04/04/2019"); LoginPage.clickOnSearchButton(driver); }
 	 */
+	
+	@Test
+	public void test() {
+		driver.get(baseURL);
+		LoginPage.enterUsername(driver, "Jackie");
+		LoginPage.enterPassword(driver, "password");
+		LoginPage.clickLoginButton(driver);
+	}
 
 	@AfterClass
 	public void tearDown() throws Exception {
-		driver.quit();
+		//driver.quit();
 	}
 }
